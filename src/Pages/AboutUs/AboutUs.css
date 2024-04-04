@@ -1,0 +1,125 @@
+.about-us-container .about-us-head-bg {
+  background-image: url("./images/Hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 725px;
+}
+
+.bg-secondary-color {
+  background-color: #e8924c2b;
+}
+
+.orange-color {
+  color: rgba(244, 126, 33, 1);
+}
+.orange-bg {
+  background-color: rgba(253, 144, 61, 0.221);
+}
+.para-hero-image {
+  font-size: larger;
+  line-height: 33px;
+}
+.heading-up-hr {
+  color: white;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .para-hero-image {
+    font-size: medium;
+  }
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 28.333333%;
+  }
+  .about-us-container .about-us-head-bg {
+    background-image: url("./images/Hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 584px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .about-us-container .about-us-head-bg {
+    background-image: url("./images/Hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 539px;
+  }
+  .home-numbers-height h5 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .about-us-container .about-us-head-bg {
+    background-image: url("./images/Hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 632px;
+  }
+}
+
+@media (min-width: 1900px) and (max-width: 2000px) {
+  .about-us-container .about-us-head-bg {
+    background-image: url("./images/Hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .about-us-container .about-us-head-bg {
+    background-image: url("./images/Hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 689px;
+  }
+  .home-numbers-height h5 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .about-us-container .about-us-head-bg {
+    background-image: url("./images/Hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 533px;
+    width: 100%;
+  }
+
+  .home-numbers-height h5 {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .para-hero-image {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .about-us-container .about-us-head-bg {
+    background-image: url("./images/Heromobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 578px;
+  }
+  .am-banner-text-b {
+    position: relative;
+    height: auto;
+    width: 100%;
+  }
+  .about-text-banner {
+    position: absolute;
+    bottom: 0%;
+  }
+}

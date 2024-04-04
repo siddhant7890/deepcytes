@@ -1,0 +1,134 @@
+.header {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 3;
+}
+.kaash-header {
+  background-color: #00000013;
+  margin-top: 0.2%;
+}
+.header-relative {
+  position: relative;
+  height: 38.2px;
+}
+.header-top {
+  position: fixed;
+  z-index: 2;
+}
+/* .navbar-light button {
+  background-color: white;
+  
+} */
+
+/* #CloseFunction {
+  background-color: rgba(240, 248, 255, 0.454);
+} */
+
+.navbar-toggler:focus {
+  outline: 0 !important;
+  text-decoration: none;
+  box-shadow: none !important;
+}
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: transparent;
+
+  transition: var(--bs-navbar-toggler-transition);
+  border: none;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  /* box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width); */
+}
+
+/* .navbar-light button:hover {
+  background-color: #f57f20;
+  color: white;
+  border-color: #f57f20; 
+  box-shadow: none;
+  border: 1px solid rgb(255, 255, 255); 
+} */
+
+.header-top {
+  background-color: #e7dccf;
+}
+.nav-links-text {
+  color: white;
+}
+.nav-links-text:hover {
+  color: #1417e0;
+}
+.header-blogs {
+  background-color: rgb(253, 253, 253);
+  backdrop-filter: blur(5px);
+}
+.nav-links-text-black {
+  color: black;
+}
+.nav-links-text-black:hover {
+  color: #2249c7;
+}
+
+/* offcanvas */
+.offcanvas.offcanvas-end.show {
+  width: 70%;
+  top: 4.65rem;
+}
+@media screen and (max-width: 480px) {
+  .kaash-header {
+    margin-top: 3.5%;
+  }
+  .offcanvas.offcanvas-end.show {
+    width: 70%;
+    top: -0.35rem;
+  }
+  .nav-links-text {
+    color: black;
+  }
+  .nav-links-text:hover {
+    color: #143dde;
+  }
+}
+@media (min-width: 480px) and (max-width: 992px) {
+  .kaash-header {
+    margin-top: 0%;
+  }
+  .header-relative {
+    position: relative;
+    height: 27.2px;
+  }
+  .nav-links-text {
+    color: black;
+  }
+  .nav-links-text:hover {
+    color: #1414e1;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .nav-links-text {
+    color: black;
+  }
+  .nav-links-text:hover {
+    color: #3810d6;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .kaash-header {
+    margin-top: 5%;
+  }
+  .contact-btn {
+    padding: 1px;
+  }
+  .navbar-light img {
+    height: 50%;
+    width: 50%;
+  }
+}

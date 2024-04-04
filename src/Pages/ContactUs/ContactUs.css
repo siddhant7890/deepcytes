@@ -1,0 +1,63 @@
+.forBackground .coolabrateUs{
+    text-decoration: underline;
+
+}
+
+.forBackground .backgroundButton{
+    background-color: #F57F20;
+    ;
+    
+}
+
+.forBackground .backgroundImage{
+    background-image: url('../../images/blurimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+  
+}
+
+
+.forBackground{
+    background-image: url('../../images/Content.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-form .form-control {
+    border-radius: 5px;
+    border: 0.874px solid var(--blue-gray-300, #CBD5E1);
+    background: transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  .main-form  .form-select {
+    border-radius: 5px;
+    border: 0.874px solid var(--blue-gray-300, #CBD5E1);
+    background: var(--blue-gray-50, #F8FAFC);
+  }
+  .main-form  .form-control:focus {
+    border: 1px solid #56577A;
+    outline: 0;
+    box-shadow: 0 0 0 0 ;
+  }
+  .swiper-button-prev{
+    color: black;
+  }
+
+  @media screen and (max-width:280px) {
+    .forBackground .backgroundImage{
+      padding: 2rem!important;
+
+    }
+    .forBackground .contact-form{
+      padding: 2rem!important;
+    }
+    .backgroundButton{
+      width: 100%;
+    }
+  }
+  

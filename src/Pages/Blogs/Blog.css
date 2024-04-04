@@ -1,0 +1,75 @@
+.blog {
+  background-color: #fcfaf8;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.most-popular {
+  background-color: #fcfaf8;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.most-popular .back-btn-most-popular {
+  background-color: #fcfaf8;
+}
+
+/* .card-edited-blog {
+  border-bottom-left-radius: 30px;
+} */
+
+.loader-container {
+  position: relative; /* Step 1: Set parent container to relative position */
+  width: 100%; /* Optional: Adjust width as needed */
+  height: 100vh; /* Optional: Adjust height as needed */
+  display: flex; /* Optional: Use flexbox for centering */
+  justify-content: center; /* Optional: Center horizontally */
+  align-items: center; /* Optional: Center vertically */
+}
+
+.text-color-more-blog {
+  color: rgb(245, 84, 4);
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 4px solid #fff;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+.loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%; /* Step 2: Center horizontally */
+  top: 50%; /* Step 3: Center vertically */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Step 4: Translate back by half of the loader's size */
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border-bottom: 4px solid #2167b1;
+  border-left: 4px solid transparent;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+  .card-view-height h5 {
+    font-size: 18px;
+  }
+}

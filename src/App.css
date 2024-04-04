@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/***** Global Annimations *****/
+.ease-out {
+  animation-duration: 0.75s;
+  animation-timing-function: ease-out;
+}
+.ease-in {
+  animation-duration: 0.75s;
+  animation-timing-function: ease-in;
+}
+.ease-out-left,
+.ease-in-left {
+  animation-name: slideIn;
+}
+.ease-out-right,
+.ease-in-right {
+  animation-name: slideOut;
+}
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+@keyframes slideOut {
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.75s ease;
+}
+.fade-out {
+  animation: fadeOut 0.75s ease;
+}
+.fade-in-slow {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    scale: 0.25;
+  }
+  to {
+    scale: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 0.25;
+  }
+}
+
+.fade-in-1 {
+  animation: fadeIn 1s ease 0.25s;
+}
+.fade-in-2 {
+  animation: fadeIn 1s ease 0.5s;
+}
+.fade-in-3 {
+  animation: fadeIn 1s ease 0.75s;
+}
+.fade-in-4 {
+  animation: fadeIn 1s ease 1s;
+}
+
+/***** End Global Annimations *****/
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.body {
+  overflow: hidden;
+}

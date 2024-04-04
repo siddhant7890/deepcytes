@@ -1,0 +1,431 @@
+.container-mission {
+  position: relative;
+  height: 519px;
+  width: 100%;
+}
+.mission {
+  position: absolute;
+}
+
+.mission:nth-child(1) {
+  top: 0px;
+  left: 0px;
+}
+
+.mission:nth-child(2) {
+  top: 144px;
+  left: 41px;
+}
+
+/* mobile */
+
+.container-mission-mobile {
+  position: relative;
+  height: 900px;
+  width: 100%;
+}
+.mission-mobile {
+  position: absolute;
+}
+
+.mission-mobile:nth-child(1) {
+  top: 0px;
+  left: 0px;
+}
+
+.mission-mobile:nth-child(2) {
+  top: 570px;
+  left: 30px;
+}
+.main-mission .orange-color {
+  background-color: rgba(244, 126, 33, 1);
+}
+
+.orange-text {
+  color: rgba(244, 126, 33, 1);
+}
+
+@media (min-width: 1900px) and (max-width: 2000px) {
+  .container-mission {
+    position: relative;
+    height: 972px;
+    width: 100%;
+  }
+  .mission {
+    position: absolute;
+  }
+
+  .mission:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .mission:nth-child(2) {
+    top: 32%;
+    left: 6%;
+  }
+
+  .para-mission {
+    font-size: 22px;
+  }
+  .mission h1 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1700px) {
+  .container-mission {
+    position: relative;
+    height: 910px;
+    width: 100%;
+  }
+  .mission {
+    position: absolute;
+  }
+
+  .mission:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .mission:nth-child(2) {
+    top: 224px;
+    left: 119px;
+  }
+
+  .para-mission {
+    font-size: 22px;
+  }
+  .mission h1 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+  .container-mission {
+    position: relative;
+    height: 885px;
+    width: 100%;
+  }
+  .mission {
+    position: absolute;
+  }
+
+  .mission:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .mission:nth-child(2) {
+    top: 224px;
+    left: 41px;
+  }
+
+  .para-mission {
+    font-size: 22px;
+  }
+  .mission h1 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1500px) {
+  .container-mission {
+    position: relative;
+    height: 758px;
+    width: 100%;
+  }
+  .mission {
+    position: absolute;
+  }
+
+  .mission:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .mission:nth-child(2) {
+    top: 197px;
+    left: 63px;
+  }
+
+  .para-mission {
+    font-size: 19px;
+  }
+  .mission h1 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .container-mission {
+    position: relative;
+    height: 656px;
+    width: 100%;
+  }
+  .mission {
+    position: absolute;
+  }
+
+  .mission:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .mission:nth-child(2) {
+    top: 174px;
+    left: 31px;
+  }
+  .para-mission {
+    font-size: 18px;
+  }
+  .mission h1 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .container-mission {
+    position: relative;
+    height: 583px;
+    width: 100%;
+  }
+  .mission {
+    position: absolute;
+  }
+
+  .mission:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .mission:nth-child(2) {
+    top: 184px;
+    left: 31px;
+  }
+  .para-mission {
+    font-size: 20px;
+  }
+  .mission h1 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .container-mission {
+    position: relative;
+    height: 532px;
+    width: 100%;
+  }
+  .mission {
+    position: absolute;
+  }
+
+  .mission:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .mission:nth-child(2) {
+    top: 107px;
+    left: 31px;
+  }
+  .para-mission {
+    font-size: 15px;
+  }
+  .mission h1 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container-mission {
+    position: relative;
+    height: 484px;
+    width: 100%;
+}
+  .mission-mobile {
+    position: absolute;
+  }
+
+  .mission-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .mission:nth-child(2) {
+    top: 81px;
+    left: 25px;
+  }
+  .mission-mobile .para-mission {
+    font-size: 11px;
+  }
+  .mission .para-mission {
+    font-size: 10px;
+  }
+  .mission h1 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 567px) and (max-width: 768px) {
+  .container-mission-mobile {
+    position: relative;
+    height: 1112px;
+    width: 100%;
+  }
+  .mission-mobile {
+    position: absolute;
+  }
+
+  .mission-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .mission-mobile:nth-child(2) {
+    top: 627px;
+    left: 31px;
+  }
+  .mission-mobile .para-mission {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 567px) {
+  .container-mission-mobile {
+    position: relative;
+    height: 1112px;
+    width: 100%;
+  }
+  .mission-mobile {
+    position: absolute;
+  }
+
+  .mission-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .mission-mobile:nth-child(2) {
+    top: 627px;
+    left: 31px;
+  }
+  .mission-mobile .para-mission {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .container-mission-mobile {
+    position: relative;
+    height: 765px;
+    width: 100%;
+  }
+  .mission-mobile {
+    position: absolute;
+    height: 720px;
+  }
+
+  .mission-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .mission-mobile:nth-child(2) {
+    top: 55%;
+    left: 5%;
+  }
+  .mission-mobile .para-mission {
+    font-size: 12px;
+  }
+  .mission-mobile h1 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 360px) {
+  .container-mission-mobile {
+    position: relative;
+    height: 700px;
+    width: 100%;
+  }
+  .mission-mobile {
+    position: absolute;
+    height: auto;
+    width: 100%;
+  }
+
+  .mission-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .mission-mobile:nth-child(2) {
+    top: 377px;
+    left: 18px;
+  }
+  .mission-mobile .para-mission {
+    font-size: 10px;
+  }
+}
+
+/* @media screen and (max-width:480px) {
+    .container-mission-mobile {
+        position: relative;
+        height: 858px;
+        width: 100%;
+    }
+    .mission-mobile{
+        position: absolute;
+    }
+    
+    .mission-mobile:nth-child(1){
+        top: 0px;
+        left: 0px 
+    }
+    
+    .mission-mobile:nth-child(2) {
+        top: 542px;
+        left: 0px;
+    }
+    .heading-revolution{
+        font-size: 22px;
+    }
+    .main-mission .para-revolution{
+        font-size: 18px;
+    }
+} */
+
+@media screen and (max-width: 280px) {
+  .container-mission-mobile {
+    position: relative;
+    height: 650px;
+    width: 100%;
+  }
+  .mission-mobile {
+    position: absolute;
+    height: 500px;
+  }
+
+  .mission-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .mission-mobile:nth-child(2) {
+    top: 292px;
+    left: 0px;
+  }
+  .heading-revolution {
+    font-size: 22px;
+  }
+  .main-mission .para-revolution {
+    font-size: 18px;
+  }
+  .wave-background-color {
+    background-color: #f5f7fa;
+  }
+  .para-mission {
+    font-size: 13px;
+  }
+  .mission-mobile .orange-text {
+    font-size: 14px;
+  }
+}

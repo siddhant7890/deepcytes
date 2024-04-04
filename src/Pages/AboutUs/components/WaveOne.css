@@ -1,0 +1,485 @@
+.container-vision {
+  position: relative;
+  height: 433px;
+  width: 100%;
+}
+.vision {
+  position: absolute;
+}
+
+.vision:nth-child(1) {
+  top: 0px;
+  left: 0px;
+}
+.vision:nth-child(2) {
+  top: 56px;
+  left: 446px;
+}
+
+/* mobile-view */
+
+@media (min-width: 1900px) and (max-width: 2000px) {
+  .container-vision {
+    position: relative;
+    height: 1018px;
+    width: 100%;
+  }
+  .vision {
+    position: absolute;
+  }
+
+  .vision:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .vision:nth-child(2) {
+    top: 385px;
+    left: 1056px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1900px) {
+  .container-vision {
+    position: relative;
+    height: 820px;
+    width: 100%;
+  }
+  .vision {
+    position: absolute;
+  }
+
+  .vision:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .vision:nth-child(2) {
+    top: 322px;
+    left: 931px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .container-vision {
+    position: relative;
+    height: 725px;
+    width: 100%;
+  }
+  .vision {
+    position: absolute;
+  }
+
+  .vision:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .vision:nth-child(2) {
+    top: 253px;
+    left: 786px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .container-vision {
+    position: relative;
+    height: 725px;
+    width: 100%;
+  }
+  .vision {
+    position: absolute;
+  }
+
+  .vision:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .vision:nth-child(2) {
+    top: 208px;
+    left: 740px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .container-vision {
+    position: relative;
+    height: 672px;
+    width: 100%;
+  }
+  .vision {
+    position: absolute;
+  }
+
+  .vision:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .vision:nth-child(2) {
+    top: 180px;
+    left: 703px;
+  }
+}
+
+@media (min-width: 1050px) and (max-width: 1200px) {
+  .container-vision {
+    position: relative;
+    height: 603px;
+    width: 100%;
+  }
+  .vision {
+    position: absolute;
+  }
+
+  .vision:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .vision:nth-child(2) {
+    top: 219px;
+    left: 642px;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 1050px) {
+  .container-vision {
+    position: relative;
+    height: 557px;
+    width: 100%;
+  }
+  .vision {
+    position: absolute;
+  }
+
+  .vision:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .vision:nth-child(2) {
+    top: 123px;
+    left: 565px;
+  }
+}
+
+@media (min-width: 873px) and (max-width: 950px) {
+  .container-vision {
+    position: relative;
+    height: 504px;
+    width: 100%;
+  }
+  .vision {
+    position: absolute;
+  }
+
+  .vision:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .vision:nth-child(2) {
+    top: 23%;
+    left: 55%;
+  }
+  .container-vision h2 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 873px) {
+  .container-vision {
+    position: relative;
+    height: 433px;
+    width: 100%;
+  }
+  .vision {
+    position: absolute;
+  }
+
+  .vision:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .vision:nth-child(2) {
+    top: 98px;
+    left: 480px;
+  }
+
+  .container-vision h2 {
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 800px) {
+  .container-vision {
+    position: relative;
+    height: 433px;
+    width: 100%;
+  }
+  .vision {
+    position: absolute;
+  }
+
+  .vision:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+  .vision:nth-child(2) {
+    top: 83px;
+    left: 450px;
+  }
+  .container-vision h2 {
+    font-size: medium;
+    line-height: 170%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 767px) {
+  .container-vision-mobile {
+    position: relative;
+    height: 1324px;
+    width: 100%;
+  }
+  .vision-mobile {
+    position: absolute;
+  }
+
+  .vision-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .vision-mobile:nth-child(2) {
+    top: 61%;
+    left: 0px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  .container-vision-mobile {
+    position: relative;
+    height: 1184px;
+    width: 100%;
+  }
+  .vision-mobile {
+    position: absolute;
+  }
+
+  .vision-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .vision-mobile:nth-child(2) {
+    top: 61%;
+    left: 0px;
+  }
+}
+
+@media (min-width: 520px) and (max-width: 600px) {
+  .container-vision-mobile {
+    position: relative;
+    height: 1084px;
+    width: 100%;
+  }
+  .vision-mobile {
+    position: absolute;
+  }
+
+  .vision-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .vision-mobile:nth-child(2) {
+    top: 61%;
+    left: 0px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 520px) {
+  .container-vision-mobile {
+    position: relative;
+    height: 920px;
+    width: 100%;
+  }
+  .vision-mobile {
+    position: absolute;
+  }
+
+  .vision-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .vision-mobile:nth-child(2) {
+    top: 68%;
+    left: 0px;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 480px) {
+  .container-vision-mobile {
+    position: relative;
+    height: 852px;
+    width: 100%;
+  }
+  .vision-mobile {
+    position: absolute;
+  }
+
+  .vision-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .vision-mobile:nth-child(2) {
+    top: 63%;
+    left: 0px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 440px) {
+  .container-vision-mobile {
+    position: relative;
+    height: 804px;
+    width: 100%;
+  }
+  .vision-mobile {
+    position: absolute;
+  }
+
+  .vision-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .vision-mobile:nth-child(2) {
+    top: 55%;
+    left: 0px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 400px) {
+  .container-vision-mobile {
+    position: relative;
+    height: 724px;
+    width: 100%;
+  }
+  .vision-mobile {
+    position: absolute;
+  }
+
+  .vision-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .vision-mobile:nth-child(2) {
+    top: 55%;
+    left: 0px;
+  }
+}
+
+@media (min-width: 340px) and (max-width: 360px) {
+  .container-vision-mobile {
+    position: relative;
+    height: 664px;
+    width: 100%;
+  }
+  .vision-mobile {
+    position: absolute;
+  }
+
+  .vision-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .vision-mobile:nth-child(2) {
+    top: 55%;
+    left: 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 340px) {
+  .container-vision-mobile {
+    position: relative;
+    height: 629px;
+    width: 100%;
+  }
+  .vision-mobile {
+    position: absolute;
+  }
+
+  .vision-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .vision-mobile:nth-child(2) {
+    top: 54%;
+    left: 0px;
+  }
+}
+
+@media (min-width: 290px) and (max-width: 320px) {
+  .container-vision-mobile {
+    position: relative;
+    height: 576px;
+    width: 100%;
+  }
+  .vision-mobile {
+    position: absolute;
+  }
+
+  .vision-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .vision-mobile:nth-child(2) {
+    top: 56%;
+    left: 0px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 290px) {
+  .container-vision-mobile {
+    position: relative;
+    height: 538px;
+    width: 100%;
+  }
+  .vision-mobile {
+    position: absolute;
+  }
+
+  .vision-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .vision-mobile:nth-child(2) {
+    top: 52%;
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .container-vision-mobile {
+    position: relative;
+    height: 523px;
+    width: 100%;
+  }
+  .vision-mobile {
+    position: absolute;
+  }
+
+  .vision-mobile:nth-child(1) {
+    top: 0px;
+    left: 0px;
+  }
+
+  .vision-mobile:nth-child(2) {
+    top: 275px;
+    left: 0px;
+  }
+  .container-vision-mobile .orange-bg {
+    font-size: 14px;
+  }
+}

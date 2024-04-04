@@ -1,0 +1,462 @@
+.our-brands .flip-container {
+  perspective: 1000px;
+}
+
+.our-brands .flip-container:hover .flipper,
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.orange-button-kaash {
+  background-color: #f57f20;
+}
+
+.our-brands .flipper {
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  height: 385px;
+  max-width: 364px;
+  /* height: auto; */
+}
+
+.our-brands .front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.our-brands .front img,
+.back img {
+  width: 364px; /* Set a fixed width */
+  height: 364px; /* Set a fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.our-brands .front {
+  z-index: 2;
+  /* position: relative; */
+}
+
+.our-brands .contact-button {
+  position: absolute;
+  top: 281px;
+  left: 94px;
+}
+.our-brands .back {
+  transform: rotateY(180deg);
+  /* position: relative; */
+}
+
+.our-brands .visit-button {
+  position: absolute;
+  top: 294px;
+  left: 81px;
+}
+.our-brands .contact-button:hover {
+  box-shadow: 1px 1px 4px gray;
+}
+
+.our-brands .orange-button-kaash:hover {
+  box-shadow: 1px 1px 4px gray;
+}
+
+@media (min-width: 1700px) and (max-width: 1920px) {
+  .our-brands .flip-container {
+    perspective: 1000px;
+  }
+
+  .our-brands .flip-container:hover .flipper,
+  .our-brands .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+  .our-brands .flipper {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 420px;
+
+    /* height: auto; */
+  }
+
+  .our-brands .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* .our-brands .front img,
+  .back img {
+    width: 100%;
+    height: 326px;
+    object-fit: cover;
+  } */
+
+  .our-brands .front {
+    z-index: 2;
+  }
+
+  .our-brands .back {
+    transform: rotateY(180deg);
+  }
+  .our-brands .contact-button {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+  }
+  /* .our-brands .back img {
+    width: 25px;
+    height: 325px;
+    object-fit: cover;
+  } */
+
+  .our-brands .visit-button {
+    position: absolute;
+    top: 73%;
+    left: 22%;
+  }
+}
+
+@media (min-width: 1368px) and (max-width: 1400px) {
+  .our-brands .visit-button {
+    position: absolute;
+    top: 80%;
+    left: 21%;
+  }
+  .our-brands .contact-button {
+    position: absolute;
+    top: 77%;
+    left: 25%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+  .our-brands .flip-container {
+    perspective: 1000px;
+  }
+
+  .our-brands .flip-container:hover .flipper,
+  .our-brands .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+  .our-brands .flipper {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 320px;
+
+    /* height: auto; */
+  }
+
+  .our-brands .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .our-brands .front img,
+  .back img {
+    width: 100%;
+    height: 326px;
+    object-fit: cover;
+  }
+
+  .our-brands .front {
+    z-index: 2;
+  }
+
+  .our-brands .back {
+    transform: rotateY(180deg);
+  }
+  .our-brands .contact-button {
+    position: absolute;
+    top: 82%;
+    left: 25%;
+  }
+  .our-brands .back img {
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+  }
+
+  .our-brands .visit-button {
+    position: absolute;
+    top: 86%;
+    left: 20%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1050px) {
+  .our-brands .flip-container {
+    perspective: 1000px;
+  }
+
+  .our-brands .flip-container:hover .flipper,
+  .our-brands .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+  .our-brands .flipper {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 180px;
+
+    /* height: auto; */
+  }
+
+  .our-brands .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .our-brands .front img,
+  .back img {
+    width: 100%;
+    height: 176px;
+    object-fit: cover;
+  }
+  .our-brands .back img {
+    width: 100%;
+    height: 176px;
+    object-fit: cover;
+  }
+  .our-brands .front {
+    z-index: 2;
+  }
+
+  .our-brands .back {
+    transform: rotateY(180deg);
+  }
+  .our-brands .contact-button {
+    position: absolute;
+    top: 76%;
+    left: 19%;
+}
+  .our-brands .visit-button {
+    position: absolute;
+    top: 80%;
+    left: 13%;
+}
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+  .our-brands .flip-container {
+    perspective: 1000px;
+  }
+
+  .our-brands .flip-container:hover .flipper,
+  .our-brands .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+  .our-brands .flipper {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 219px;
+    /* height: auto; */
+  }
+
+  .our-brands .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .our-brands .front img,
+  .back img {
+    width: 100%;
+    height: 202px;
+    object-fit: cover;
+  }
+
+  .our-brands .front {
+    z-index: 2;
+  }
+
+  .our-brands .back {
+    transform: rotateY(180deg);
+  }
+  .our-brands .contact-button {
+    position: absolute;
+    top: 153px;
+    left: 44px;
+  }
+  .our-brands .back img {
+    width: 100%;
+    height: 202px;
+    object-fit: cover;
+  }
+  .our-brands .visit-button {
+    position: absolute;
+    top: 165px;
+    left: 36px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .our-brands .flip-container {
+    perspective: 1000px;
+  }
+
+  .our-brands .flip-container:hover .flipper,
+  .our-brands .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+  .our-brands .flipper {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 219px;
+    /* height: auto; */
+  }
+
+  .our-brands .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .our-brands .front img,
+  .back img {
+    width: 100%;
+    height: 218px;
+    object-fit: cover;
+  }
+
+  .our-brands .front {
+    z-index: 2;
+  }
+
+  .our-brands .back {
+    transform: rotateY(180deg);
+  }
+  .our-brands .contact-button {
+    position: absolute;
+    top: 79%;
+    left: 23%;
+  }
+  .our-brands .back img {
+    width: 100%;
+    height: 218px;
+    object-fit: cover;
+  }
+  .our-brands .visit-button {
+    position: absolute;
+    top: 82%;
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .our-brands .flipper {
+    height: 399px;
+    max-width: 100%;
+  }
+
+  .our-brands .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .our-brands .front img,
+  .back img {
+    width: 490px !important;
+    height: 355px !important;
+    object-fit: cover !important;
+  }
+  /* .front img,
+  .back img {
+    width: 395px;
+    height: 395px;
+    object-fit: cover;
+  } */
+  .our-brands .contact-button {
+    position: absolute;
+    top: 70%;
+    left: 26%;
+  }
+  .our-brands .visit-button {
+    position: absolute;
+    top: 76%;
+    left: 24%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .our-brands .flipper {
+    height: 259px;
+    max-width: 100%;
+  }
+
+  .our-brands .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .our-brands .front img,
+  .back img {
+    width: 250px !important;
+    height: 250px !important;
+    object-fit: cover !important;
+  }
+  /* .front img,
+  .back img {
+    width: 395px;
+    height: 395px;
+    object-fit: cover;
+  } */
+  .our-brands .contact-button {
+    position: absolute;
+    top: 75%;
+    left: 14%;
+  }
+  .our-brands .visit-button {
+    position: absolute;
+    top: 76%;
+    left: 11%;
+  }
+}
