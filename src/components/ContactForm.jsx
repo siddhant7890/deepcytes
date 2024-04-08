@@ -225,7 +225,7 @@ const ContactForm = () => {
             >
               <h1 className="">
                 Get in{" "}
-                <span style={{ color: "#F57F20" }} className="">
+                <span style={{ color: "#010b79" }} className="">
                   Touch
                 </span>
               </h1>
@@ -319,7 +319,7 @@ const ContactForm = () => {
                       )}
                     </div>
                     <button
-                      style={{ backgroundColor: "#F57F20" }}
+                      style={{ backgroundColor: "#010b79" }}
                       className=" border-0 text-white mt-3 p-2 px-5 rounded "
                     >
                       Send Message
@@ -474,7 +474,7 @@ const ContactForm = () => {
       <div className="container d-md-block d-sm-block d-lg-block d-xl-none d-block pt-lg-5 mt-5">
         <div className="p-md-5 pt-md-0">
           <h1 className="mt-2">
-            Get in <span style={{ color: "#F57F20" }}>Touch</span>
+            Get in <span style={{ color: "#010b79" }}>Touch</span>
           </h1>
           <p style={{ textAlign: "justify" }} className="">
             We are here to help you design and print anything you can imagine.
@@ -552,7 +552,7 @@ const ContactForm = () => {
                 </div>
                 <button
                   type="submit"
-                  style={{ backgroundColor: "#F57F20" }}
+                  style={{ backgroundColor: "#010b79" }}
                   className="border-0 text-white mt-3 p-2 px-5 rounded"
                 >
                   Send Message

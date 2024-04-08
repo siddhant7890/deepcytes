@@ -18,7 +18,7 @@
 }
 
 .client-higlights-heading {
-  color: rgb(255, 132, 0);
+  color: #010b79;
 }
 
 #background-video {
@@ -90,7 +90,7 @@
   height: 10px;
   border-radius: 50%;
   margin-right: 5px;
-  background-color: rgb(255, 132, 0);
+  background-color: #010b79;
 }
 .testimonials-mobile-view {
   display: none;
@@ -106,10 +106,10 @@
 }
 
 .button-orange {
-  background-color: #f57f20;
+  background-color: #010b79;
 }
 .text-orange-color {
-  color: #f57f20;
+  color: #010b79;
   opacity: 80%;
 }
 .premium-3d-printing-contanier {
@@ -118,11 +118,11 @@
   background-repeat: no-repeat;
 }
 .text-heading-orange {
-  color: #f57f20;
+  color: #010b79;
 }
 
 .modal-background {
-  background-color: rgb(255, 132, 0);
+  background-color: #010b79;
 }
 
 /* ----------card-flipper---------- */
@@ -492,7 +492,7 @@
     z-index: 1;
   }
   .shadow-on-hover:hover {
-    box-shadow: 1px 1px 4px gray;
+    box-shadow: 1px 1px 4px #00FFEF;
   }
   #background-video {
     position: relative;
@@ -527,7 +527,7 @@
     z-index: 1;
   }
   .shadow-on-hover:hover {
-    box-shadow: 1px 1px 4px gray;
+    box-shadow: 1px 1px 4px #00FFEF;
   }
   #background-video {
     position: relative;
@@ -557,7 +557,7 @@
     z-index: 1;
   }
   .shadow-on-hover:hover {
-    box-shadow: 1px 1px 4px gray;
+    box-shadow: 1px 1px 4px #00FFEF;
   }
 }
 
@@ -572,7 +572,7 @@
     z-index: 1;
   }
   .shadow-on-hover:hover {
-    box-shadow: 1px 1px 4px gray;
+    box-shadow: 1px 1px 4px #00FFEF;
   }
 }
 
@@ -807,7 +807,7 @@
   }
 
   .read-more-button-blog:hover {
-    box-shadow: 1px 1px 4px gray;
+    box-shadow: 1px 1px 4px #00FFEF;
   }
 
   .cards-mobie-view {
@@ -865,4 +865,44 @@
   #cards-button-center {
     width: 80%;
   }
+}
+/* DeepcytesCertification.css */
+.Deepcytes-certification {
+  max-width: 800px; /* Adjust width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif; /* Change the font-family as per your design */
+}
+
+.Deepcytes-certification h1 {
+  color: #000; /* Change color as per your design */
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+.Deepcytes-certification p {
+  color: #666; /* Change color as per your design */
+  line-height: 1.6; /* Adjust line height as needed */
+}
+
+.Deepcytes-certification a {
+  color: #007bff; /* Adjust link color as needed */
+  text-decoration: none;
+}
+
+.Deepcytes-certification a:hover {
+  text-decoration: underline;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('./Images/3dimage2.png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -62,22 +62,23 @@ const Footer = () => {
 
   return (
     <>
+    <section style={{backgroundColor:"white",color: "white"}}>
       <div className="footer-bg d-none d-lg-block  d-md-block d-xl-block shadow">
-        <div className="container ">
-          <div className=" pt-4 pb-xl-3">
+        <div className="container-fluid ">
+          <div className=" pt-3 pb-xl-0 ">
             <div className="d-lg-flex  flex-lg-wrap d-md-flex d-md-wrap justify-content-between pb-lg-0 ">
               <div className="d-lg-flex flex-lg-wrap  d-md-flex d-md-wrap justify-content-between col-lg-5 col-xl-4 col-md-5">
-                <div className="col-lg-3  text-center mt-xl-1  mt-lg-0 pe-xl-0 pe-md-2 ">
+                <div className="col-lg-4  text-center mt-xl-1  mt-lg-0 pe-xl-0 pe-md-2 ">
                   <img
-                    src={require("../images/kaashlogo.png")}
+                    src={require("../images/a.webp")}
                     alt=""
-                    className="img-fluid  col-lg-12 col-xl-10   col-sm-2 col-md-9 col-3 footerlogo "
+                    className="img-fluid  col-lg-12 col-xl-30   col-sm-2 col-md-9 col-3 footerlogo "
                   />
                 </div>
                 <div className="border-0  border-height  border-warning border-end"></div>
                 <p
-                  style={{ textAlign: "justify" }}
-                  className="text-secondary text-center text-lg-start col-lg-6 mt-3 mt-md-0 col-md-9  mt-lg-1 "
+                  style={{ textAlign: "justify",color:"white" }}
+                  className=" text-center  text-lg-start col-lg-6 mt-3 mt-md-0 col-md-9  mt-lg-1 "
                 >
                   Create anything and explore Cybersec world
                 </p>
@@ -143,11 +144,11 @@ const Footer = () => {
                   href="https://www.instagram.com/kaashstudio/?igsh=MXl3bDNjaHNuYmxw"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black"
+                  className="text-white"
                 >
-                  <div className="bg-white rounded-circle ">
+                  <div className="bg-black rounded-circle ">
                     <FaInstagram
-                      size={45}
+                      size={50}
                       className="shadow p-2 rounded-circle icon-style"
                     />
                   </div>
@@ -159,11 +160,11 @@ const Footer = () => {
                   href="https://www.linkedin.com/company/kaash-studio/?originalSubdomain=in"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black "
+                  className="text-white "
                 >
-                  <div className="bg-white rounded-circle ">
+                  <div className="bg-black rounded-circle ">
                     <AiOutlineLinkedin
-                      size={45}
+                      size={50}
                       className="icon-style shadow p-2 rounded-circle"
                     />
                   </div>
@@ -177,10 +178,10 @@ const Footer = () => {
               Deepcytes LLP &nbsp;
               <FaRegCopyright size={16} /> &nbsp; 2024 All Rights Reserved
             </small>
-            <div className="pe-lg-3 mb-2 ">
+            <div className="pe-lg-3 pb-2  ">
               {" "}
               <IoIosArrowDropup
-                className=" cursor-pointer mb-md-3"
+                className=" cursor-pointer mb-md-0"
                 size={33}
                 onClick={handleTopScroll}
               />
@@ -207,7 +208,7 @@ const Footer = () => {
             Create anything you imagine and start your 3D printing adventure
             today!
           </p>
-          <div className="d-flex fw-semibold flex-wrap justify-content-center pb-3">
+          <div className="d-flex fw-semibold flex-wrap justify-content-center   pb-3 ">
             <h6
               onClick={handleHomeScroll}
               className={`text-decoration-none  cursor-pointer nav-links-text-footer on-hover fw-semibold  nav-link-style me-3 me-lg-0 px-lg-4`}
@@ -269,19 +270,19 @@ const Footer = () => {
                   href=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black"
+                  className="text-white"
                 >
                   <div className="bg-social-media p-2 pt-1 pb-1">
                     <SlSocialFacebook size={25} className="icon-style" />
                   </div>
                 </a>
               </div> */}
-            <div className="mx-2">
+            {/* <div className="mx-2">
               <a
                 href="https://www.instagram.com/kaashstudio/?igsh=MXl3bDNjaHNuYmxw"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-black"
+                className="text-#00FFEF"
               >
                 <div className="">
                   <FaInstagram
@@ -290,25 +291,25 @@ const Footer = () => {
                   />
                 </div>
               </a>
-            </div>
+            </div> */}
             {/* <div className="mx-2">
                 <a
                   href=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black"
+                  className="text-white"
                 >
                   <div className="bg-social-media p-2 pt-1 pb-1">
                     <FaXTwitter size={25} className="icon-style" />
                   </div>
                 </a>
               </div> */}
-            <div className="mx-2 ">
+            {/* <div className="mx-2 ">
               <a
                 href="https://www.linkedin.com/company/kaash-studio/?originalSubdomain=in"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-black "
+                className="text-#00FFEF "
               >
                 <div className=" ">
                   <AiOutlineLinkedin
@@ -317,7 +318,7 @@ const Footer = () => {
                   />
                 </div>
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="d-flex px-2 copyright-footer-mobile flex-wrap justify-content-between mt-3  ">
             <small className="px-lg-3 fw-semibold pt-3">
@@ -335,6 +336,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 };

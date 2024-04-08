@@ -17,7 +17,7 @@
 }
 
 .form-control:focus {
-  border-color: #f47e21; /* Change to Bootstrap's primary color */
+  border-color: #010b79; /* Change to Bootstrap's primary color */
   box-shadow: none; /* Optionally remove the focus shadow */
 }
 .blur-img-contact-form {

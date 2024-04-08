@@ -181,7 +181,7 @@ const Header = () => {
             : "header w-100 "
         }
       >
-        <div className="container">
+        <div className="container-fluid">
           <Navbar expand="xl ">
             {/* <Container fluid> */}
             <Link to="/" className="header-logo py-2 navbar-brand me-4">

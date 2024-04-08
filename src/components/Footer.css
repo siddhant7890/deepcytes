@@ -9,18 +9,18 @@
 }
 
 .nav-links-text-footer {
-  color: black;
+  color: white;
 }
 .nav-links-text-footer:hover {
-  color: rgb(245, 84, 4);
+  color: #00ffef;
 }
 
 .border-orange {
-  border-color: rgb(245, 84, 4);
+  border-color: #010b79;
 }
 
 .bg-social-media {
-  background: #ffffff;
+  background: #000000;
   /* padding: 8px; */
   border-radius: 100%;
   box-shadow: 0 1.5px 8px rgba(0, 0, 0, 0.1);

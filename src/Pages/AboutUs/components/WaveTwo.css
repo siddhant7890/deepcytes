@@ -38,11 +38,11 @@
   left: 30px;
 }
 .main-mission .orange-color {
-  background-color: rgba(244, 126, 33, 1);
+  background-color: #010b79;
 }
 
 .orange-text {
-  color: rgba(244, 126, 33, 1);
+  color: #010b79;
 }
 
 @media (min-width: 1900px) and (max-width: 2000px) {

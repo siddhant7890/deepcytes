@@ -1,9 +1,22 @@
-.header {
+/* .header {
   background-color: transparent;
   position: absolute;
   width: 100%;
   height: auto;
   z-index: 3;
+} */
+
+.header{
+  background-color: rgb(0, 1, 28);
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 96%;
+  padding-right: calc(var(--bs-gutter-x)* .5);
+  padding-left: calc(var(--bs-gutter-x)* .5);
+  margin-right: auto;
+  margin-left: auto;
 }
 .kaash-header {
   background-color: #00000013;
@@ -47,13 +60,13 @@
   /* box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width); */
 }
 
-/* .navbar-light button:hover {
-  background-color: #f57f20;
+ .navbar-light button:hover {
+  background-color: #00FFEF;
   color: white;
-  border-color: #f57f20; 
+  border-color: #00FFEF; 
   box-shadow: none;
   border: 1px solid rgb(255, 255, 255); 
-} */
+} 
 
 .header-top {
   background-color: #e7dccf;
@@ -62,7 +75,7 @@
   color: white;
 }
 .nav-links-text:hover {
-  color: #1417e0;
+  color: #00FFEF;
 }
 .header-blogs {
   background-color: rgb(253, 253, 253);
@@ -72,7 +85,7 @@
   color: black;
 }
 .nav-links-text-black:hover {
-  color: #2249c7;
+  color: #00FFEF;
 }
 
 /* offcanvas */
@@ -92,7 +105,7 @@
     color: black;
   }
   .nav-links-text:hover {
-    color: #143dde;
+    color: #00FFEF;
   }
 }
 @media (min-width: 480px) and (max-width: 992px) {
@@ -107,7 +120,7 @@
     color: black;
   }
   .nav-links-text:hover {
-    color: #1414e1;
+    color: #00FFEF;
   }
 }
 
@@ -116,7 +129,7 @@
     color: black;
   }
   .nav-links-text:hover {
-    color: #3810d6;
+    color: #00FFEF;
   }
 }
 
